@@ -1,4 +1,22 @@
 header{
     background-color: #ffffff;
     border-color: #cccccc;
+    width: 100%;
+    position: initial;
+}
+h5{
+    text-align: right;
+}
+#me{
+    background-color: #4aaaa5;
+    width: 240px;
+}
+section{
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+body{
+    background-color: burlywood;
+    width: 100%;
 }
