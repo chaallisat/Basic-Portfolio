@@ -7,6 +7,8 @@ header{
 #me{
     background-color: #4aaaa5;
     width: 240px;
+    text-align: center;
+    color: white;
 }
 section{
     width: 960px;
@@ -23,6 +25,7 @@ body{
     color: black;
     font-size: 16px;
     cursor: pointer;
+    
 }
 .portfolio{
     background-color: #ffffff;
@@ -44,6 +47,7 @@ body{
     height: auto;
 }
 .page{
-    font-size: 24px;
+    font-size: 36px;
     color: #4aaaa5;
+    
 }
