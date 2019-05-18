@@ -73,6 +73,17 @@ header a{
     color: #4aaaa5;
     padding: 0px 25px;
 }
+form{
+    padding: 24px;
+    max-width: 960px;
+    margin: auto;
+}
+input{
+    width: 90%;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
 hr{
     background-color: red;
     width: 95%;
