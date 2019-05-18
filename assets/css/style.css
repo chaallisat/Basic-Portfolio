@@ -2,7 +2,7 @@ header{
     overflow: hidden;
     background-color: #ffffff;
     border-color: #cccccc;
-    width: 99%;
+    width: 100%;
     position: initial;
     border-style: none none solid none;
     border-style: 10px;
@@ -72,4 +72,14 @@ header a{
     font-size: 36px;
     color: #4aaaa5;
     padding: 0px 25px;
+}
+hr{
+    background-color: red;
+    width: 95%;
+}
+footer{
+    background-color: #666666;
+    padding: 20px;
+    border-color: #4aaaa5;
+    border-top: 5px;
 }
