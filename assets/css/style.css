@@ -3,6 +3,8 @@ header{
     border-color: #cccccc;
     width: 99%;
     position: initial;
+    border-style: none none solid none;
+    border-style: 10px;
 }
 #me{
     background-color: #4aaaa5;
@@ -14,10 +16,17 @@ section{
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
+    display: inline-block;
+    margin: 48px 96px 0px 96px;
 }
 body{
     background-color: #dddddd;
-    width: 100%;
+}
+.container{
+    max-width: 960px;
+    width: auto;
+    max-height: 100%;
+    margin: auto;
 }
 .home{
     background-color: #ffffff;
@@ -45,9 +54,11 @@ body{
     max-width: 400px;
     max-height: 300px;
     height: auto;
+    padding: 25px 25px;
+    float: left;
 }
 .page{
     font-size: 36px;
     color: #4aaaa5;
-    
+    padding: 0px 25px;
 }
