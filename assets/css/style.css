@@ -83,14 +83,26 @@ input{
     line-height: 20px;
     box-sizing: border-box;
 }
+input[type=submit]{
+    width: 70px;
+}
 
 hr{
     background-color: red;
     width: 95%;
+}
+br{
+    line-height: 24px;
+}
+label{
+    line-height: 24px;
+    padding: 10px 0px 5px 0px;
 }
 footer{
     background-color: #666666;
     padding: 20px;
     border-color: #4aaaa5;
     border-top: 5px;
+    margin: 100px 0px 0px 0px;
+    position: static;
 }
