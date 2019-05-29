@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
     <head>
-        <title>Me</title>
-        <link rel="stylesheet" type="text/css" href="C:\Users\taylo\Desktop\Code\Basic-Portfolio\assets\css\style.css">
+        <meta charset="UTF-8">
+        <title>About | ChaA'llisa Taylor</title>
+        <!--<link rel="stylesheet" type="text/css" href="assets\css\style.css">-->
+        <link rel="stylesheet" type="text/css" href="C:\Users\taylo\Desktop\Code\Responsive-Portfolio\assets\css\style.css">
     </head>
+
     <body>
-        <header>
-            <h1 class="me">ChaA'llisa Taylor</h1>
-            <a href="index.html" class="home">About</a>
-            <a href="portfolio.html" class="portfolio">Portfolio</a>
-            <a href="contact.html" class="contact">Contact</a>
-           
+
+        <header id="master">
+            <div class="container">
+                <a href="index.html" id="logo">ChaA'llisa Taylor</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
         </header>
-        <div class="container">
-            <section>
+
+        <div id="main-container" class="container">
+            <section class="main-section">
                 <h1 class="page">About Me</h1>
-                <hr>
+                
                 <img class="small" src="C:\Users\taylo\Desktop\Code\Basic-Portfolio\assets\images\Funny_Quotes_about_Life_happy-bunny.jpg" alt="me_image">
                 <p>
                     This a paragraph about me.
@@ -28,8 +37,11 @@
                 </p>
             </section>
         </div>
+        
         <footer>
-            <h6>Done</h6>
+            <div class="container">
+                Copyright &copy;
+            </div>
         </footer>
 
     </body>
